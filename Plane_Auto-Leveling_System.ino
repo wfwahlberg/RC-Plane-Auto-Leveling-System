@@ -49,7 +49,8 @@ void loop() {
   Serial.println(" rad/s");
 
   Aileron.write(abs(g.gyro.x/0.01)*180);
-
+  
+  
  
   delay(200);
 }
